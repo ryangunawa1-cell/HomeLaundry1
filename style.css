@@ -7,13 +7,14 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family: 'Open Sans', 'sans-serif';
+    font-family: 'Montserrat', sans-serif;
 }
 
 .wrapper {
     width: 1100px;
     margin: auto;
     position: relative;
+
 }
 
 .logo a {
@@ -22,7 +23,7 @@ body {
     font-size: 50px;
     font-weight: bolder;
     float: left;
-    font-family: Oswald ;
+    font-family: 'Montserrat';
     color: #0C2C55;
 }
 
@@ -82,17 +83,17 @@ section{
 
 .kolom .deskripsi {
     font-size: 20px;
-    font-weight: 20px;
-    font-family: 'Ubuntu';
-    color: 547792;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    color: #547792;
 }
 
 h2 {
-    font-family: "Ubuntu";
-    font-weight: 800;
+    font-family: "Montserrat";
+    font-weight: 700;
     font-size: 45px;
     margin-bottom: 20px;
-    color: 547792;
+    color: #547792;
     width: 100%;
     line-height: 50px;
 }
@@ -128,7 +129,7 @@ a.tbl-pink:hover {
 }
 p{
     margin: 10px 0px 20px 0px;
-    padding: 20px 0ppx 20px 0px;
+    padding: 20px 0px 20px 0px;
 }
 
 table{
@@ -155,6 +156,53 @@ td{
     border: #1A3263;
     border-radius: 20px;
     font-weight: bold;
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-size: 30px;
+}
+
+/* Data Table Section */
+#dataForm {
+    margin-bottom: 20px;
+}
+
+#dataForm input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #0C2C55;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#dataForm button {
+    margin: 5px;
+}
+
+#dataTableContent {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#dataTableContent th, #dataTableContent td {
+    border: 1px solid #0C2C55;
+    padding: 10px;
+    text-align: left;
+}
+
+#dataTableContent th {
+    background-color: #0C2C55;
+    color: white;
+}
+
+#dataTableContent button {
+    background: #1A3263;
+    color: #E8E2DB;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#dataTableContent button:hover {
+    background: #629FAD;
 }
